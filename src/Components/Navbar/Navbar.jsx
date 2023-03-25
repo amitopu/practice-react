@@ -33,6 +33,9 @@ const Navbar = () => {
             <Link style={stylelink} to="/reducer">
                 Reducer
             </Link>
+            <Link style={stylelink} to="/player">
+                Player
+            </Link>
         </div>
     );
 };
