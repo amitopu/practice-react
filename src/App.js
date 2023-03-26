@@ -6,6 +6,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import Player from "./Components/Player/Player";
+import Controlled from "./Components/Controlled/Controlled";
 
 // app component or main component
 function App() {
@@ -18,6 +19,7 @@ function App() {
                 <Route path="/context" element={<ContextExample />} />
                 <Route path="/reducer" element={<ReducerExample />} />
                 <Route path="/player" element={<Player />} />
+                <Route path="/form" element={<Controlled />} />
             </Routes>
         </>
     );
