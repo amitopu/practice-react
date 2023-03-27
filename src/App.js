@@ -7,6 +7,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import Player from "./Components/Player/Player";
 import Controlled from "./Components/Controlled/Controlled";
+import Goal from "./Components/Goal/Goal";
 
 // app component or main component
 function App() {
@@ -20,6 +21,7 @@ function App() {
                 <Route path="/reducer" element={<ReducerExample />} />
                 <Route path="/player" element={<Player />} />
                 <Route path="/form" element={<Controlled />} />
+                <Route path="/goal" element={<Goal />} />
             </Routes>
         </>
     );

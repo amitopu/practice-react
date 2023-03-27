@@ -39,6 +39,9 @@ const Navbar = () => {
             <Link style={stylelink} to="/form">
                 Form
             </Link>
+            <Link style={stylelink} to="/goal">
+                Goal
+            </Link>
         </div>
     );
 };
